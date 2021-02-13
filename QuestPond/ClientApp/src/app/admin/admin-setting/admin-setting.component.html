@@ -1,0 +1,82 @@
+<div class="fewa_header">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="pageTitle">
+                <h6>Admin Settings</h6>
+                <app-sidemenu></app-sidemenu>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 text-right">
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <div class="profileHeader dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <p>
+                                logout</p>
+                            <!-- <p> &nbsp;&nbsp;</p> -->
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" routerLink="/admin/login">
+                                <a class="dropdown-item">Logout</a>
+                            </div>
+                            <!-- <div class="profilePic">
+                                <img  class="img-fluid">
+                                <img  class=" img-fluid" >
+                            </div> -->
+                        </div>
+                        <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" >Logout</a>
+                        </div> -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="userTabsMenu">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="true">Section 1</a>
+                    <a id="v-pills-email-tab" data-toggle="pill" href="#v-pills-email" role="tab"
+                        aria-controls="v-pills-email" aria-selected="true">Section 2</a>
+                    <a id="v-pills-addProvider-tab" data-toggle="pill" href="#v-pills-addProvider" role="tab"
+                        aria-controls="v-pills-addProvider" aria-selected="true">Section 3</a>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="fewa-title">
+                            <h3 align="center">Section 1</h3>
+                        </div>
+                        <div class="tab-forms">
+                            <p align="center">section 1 content</p>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="v-pills-email" role="tabpanel" aria-labelledby="v-pills-email-tab">
+                        <div class="fewa-title">
+                            <h3 align="center">Section 2</h3>
+                        </div>
+                        <div class="tab-forms">
+                            <p align="center"> section 2 content</p>
+                        </div>
+                    </div>
+
+                    <!-- Add Provider -->
+                    <div class="tab-pane fade" id="v-pills-addProvider" role="tabpanel"
+                        aria-labelledby="v-pills-addProvider-tab">
+                        <div class="fewa-title">
+                            <h3 align="center">Section3</h3>
+                        </div>
+                        <div class="tab-forms" style="max-height:546px;">
+                            <p align="center">section 3 content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
